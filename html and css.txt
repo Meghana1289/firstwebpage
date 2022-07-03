@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<title>My First Webpage</title>
+<style>
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightseagreen;
+    border-style: solid;
+}   
+li{
+    float: right;
+     }
+   li a {
+    display: ruby-base;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-style: solid;
+    background-color:lightseagreen;
+     }
+
+    body{
+        background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190628/ourmid/pngtree-light-blue-background-image_264178.jpg");
+        background-size: cover;
+        background-position: center;
+        
+        }
+    .myself{
+        margin-left: 600px;
+        position: relative;
+    }
+   h2{
+    color:rgb(218, 32, 106);
+    border:thick;
+    text-align: center;
+    padding-left: 100px;
+    position: relative;
+     }
+    
+    p.justify{
+    text-align: center;
+    position: relative;
+    color:rgb(22, 3, 22);
+    margin-inline-start: 150px;
+
+    }
+    p.opacity{
+    text-align: center;
+    margin-left: 100px;
+    position: relative;
+    }
+
+</style>  
+</head>  
+<body>
+
+<!-- Navigation -->
+<nav class="navbar">
+  <ul>
+  <li><a style ="margin:auto"href="#Home">Home</a></li>
+  <li><a style ="margin:auto"href="#Blog">Blog</a></li>
+  <li><a style ="margin:auto"href="#Gallery">Gallery</a></li>
+  </ul>
+</nav>
+
+<!-- Slide Show -->
+<section>
+  <img class="myself" style="height: 450px; width: 450px" src="https://i.pinimg.com/736x/de/99/93/de9993e752fc52646579448542c411d3.jpg">
+</section>
+
+<!-- Band Description -->
+<section class="content" >
+  <h2 class="wide">HELLO...I AM MEGHANA!</h2>
+  <p class="opacity"><i><b>Welcome folks!!</b></i></p>
+  <p class="justify">I am an enthusiastic learner enclined to learn more about programming and data science.
+    I spend out time browsing web and youtube.. exploring new things.
+    I am currently pursuing my BTech from Sri Venkateswara University in ECE.
+    Apart from BTech I am doing online Bsc in Data Science and Programming from <b>IIT Madras</b> with two projects one on data analysis and another on web development.  
+  </p>
+</section>
+
+
+
+
+
+</body>
+</html>
